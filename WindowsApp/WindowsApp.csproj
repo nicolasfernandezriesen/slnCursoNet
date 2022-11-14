@@ -46,11 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entidad\Practica1\ClienteEmpresa.cs" />
+    <Compile Include="Entidad\Practica1\Empresa.cs" />
     <Compile Include="Entidad\Practica1\ClienteIndividuo.cs" />
+    <Compile Include="Entidad\Practica1\DcumentoComercial.cs" />
     <Compile Include="Entidad\Practica1\Factura.cs" />
+    <Compile Include="Entidad\Practica1\Persona.cs" />
     <Compile Include="Entidad\Practica1\Producto.cs" />
-    <Compile Include="Entidad\Practica1\Proveedor.cs" />
     <Compile Include="Entidad\Practica1\Remito.cs" />
     <Compile Include="Entidad\Practica1\Vendedor.cs" />
     <Compile Include="Entidad\Practica2\Cliente.cs" />

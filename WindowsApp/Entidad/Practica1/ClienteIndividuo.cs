@@ -3,16 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WindowsApp.Entidad.Practica1;
 
 namespace WindowsApp.Entidad
 {
-    public class ClienteIndividuo
+    public class ClienteIndividuo : Persona
     {
-        public string Nombre { get; set; }
-        public string Apellido { get; set; }
         public string CUIT { get; set; }
-        public string Email { get; set; }
-        public string Telefono { get; set; }
-        public string Direccion { get; set; }
     }
 }
